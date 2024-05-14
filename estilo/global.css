@@ -4,6 +4,22 @@ body {
     color: #141414;
 }
 
+#particles-js {
+    height: 100%;
+    /* width: 100%; */
+}
+
+canvas {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+
 h1, h2, h3, p {
     margin: 0px;
 }
